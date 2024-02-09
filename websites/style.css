@@ -457,3 +457,17 @@ h4:hover{
   line-height: 20px;
   margin-bottom: 8px;
 }
+
+.background_video{
+  /* video is just for hero section */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.5;
+  filter: blur(5px);
+  transition: all ease 0.5s;
+}
